@@ -35,7 +35,7 @@ class AlienInvasion:
         pygame.display.flip()
 
     def check_events(self):
-        """Respond to keypresses and mouse events."""
+        """Respond to keypresses and mouse events"""
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
